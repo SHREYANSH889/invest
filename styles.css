@@ -1,0 +1,157 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav ul li a:hover {
+    color: #ff7f00;
+}
+
+.hero {
+    background: #007bff;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.market-summary {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.market-summary h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.market-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.market-cards .card {
+    background: #f1f1f1;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.market-cards .card h3 {
+    font-size: 1.5rem;
+}
+
+.market-cards .card p {
+    font-size: 1.1rem;
+}
+
+.change {
+    font-weight: bold;
+}
+
+.change.positive {
+    color: green;
+}
+
+.change.negative {
+    color: red;
+}
+
+.latest-news {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.latest-news h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.news-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.news-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.news-item h3 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.news-item h3 a:hover {
+    color: #007bff;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
